@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>k-Fold Cross-Validation Example</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Garamond);
+      @import url(https://fonts.googleapis.com/css?family=Muli:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+    </style>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# 3-Fold Cross-Validation Example
+
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_1.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_2.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_3.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_4.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_5.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_6.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_7.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_8.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_9.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_10.png)]
+
+---
+# 3-Fold Cross Validation
+.center[
+![](images/cv_11.png)]
+
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <script>
+    // Config Remark
+    remark.macros['scale'] = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
+    config_remark = {
+        highlightStyle: 'github',
+        highlightSpans: true,
+        highlightLines: true,
+        ratio: "16:9"
+    };
+      var slideshow = remark.create(config_remark);
+
+    // Configure MathJax
+    MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] /* removed 'code' entry*/
+    }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i = 0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+    </script>
+  </body>
+</html>
